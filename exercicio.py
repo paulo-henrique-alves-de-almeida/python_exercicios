@@ -5,7 +5,7 @@ mulheres_sub_20 = 0
 
 for i in range(1, 5):
     # reseta as variáveis
-    sexo = 'u'
+    sexo = ''
     idade = -1
 
     print()
