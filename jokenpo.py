@@ -19,7 +19,7 @@ def imprimir_titulo():
     print()
 
 imprimir_titulo()
-nome = input('Digite seu nome: ')
+nome = input('Digite seu nome: ').strip().capitalize()
 
 while (tentativas < 0) or (tentativas % 2 == 0):
     imprimir_titulo()
